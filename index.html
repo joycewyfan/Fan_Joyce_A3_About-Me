@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+    
+    .about-page,
+.about-page * {
+  box-sizing: border-box;
+}
+.about-page {
+  background: var(--soft-grey, #f2f2f2);
+  height: 4790px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-20 {
+  background: var(--sage-green, #87a280);
+  border-radius: 0px 130px 0px 130px;
+  width: 640px;
+  height: 663px;
+  position: absolute;
+  left: 733px;
+  top: 1557px;
+}
+.rectangle-19 {
+  background: var(--sage-green, #87a280);
+  border-radius: 130px 0px 130px 0px;
+  width: 640px;
+  height: 759px;
+  position: absolute;
+  left: 66px;
+  top: 1017px;
+}
+.rectangle-18 {
+  background: var(--brown, #b9a590);
+  width: 1440px;
+  height: 853px;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+.who-am-i {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 70px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: 120px;
+  top: 186px;
+  width: 484px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hi-i-m-joyce-fan-a-chinese-canadian-on-a-mission-to-explore-and-taste-the-world-s-best-eats-i-love-discovering-hidden-gems-and-sharing-honest-reviews-with-fellow-food-lovers {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 32px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: 120px;
+  top: 303px;
+  width: 599px;
+  height: 311px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-7 {
+  width: 643px;
+  height: 764px;
+  position: absolute;
+  left: 730px;
+  top: 165px;
+  object-fit: cover;
+}
+.i-m-a-global-business-and-digital-arts-student-at-the-university-of-waterloo-and-i-m-passionate-about-exploring-the-world-through-food-just-like-i-blend-art-design-and-storytelling-in-my-creative-projects-i-love-sharing-the-stories-behind-the-dishes-i-try-the-flavours-the-people-and-the-culture-that-make-every-meal-special {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 120px;
+  top: 662px;
+  width: 579px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.i-was-born-and-raised-in-canada-though-i-traveled-a-lot-with-my-family-when-i-was-younger-most-of-those-memories-are-a-blur-but-i-do-remember-enjoying-all-the-food-along-the-way-growing-up-i-was-always-drawn-to-creativity-whether-through-drawing-music-or-dance-and-that-curiosity-has-naturally-extended-to-the-food-i-eat-being-the-youngest-of-three-i-ve-always-had-the-guidance-and-care-of-my-older-siblings-and-their-influence-has-shaped-not-only-who-i-am-as-a-person-but-also-how-i-explore-the-world-with-curiosity-openness-and-a-taste-for-adventure {
+  color: #000000;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 131px;
+  top: 1148px;
+  width: 505px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.where-i-am-from {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 48px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: 125px;
+  top: 1054px;
+  width: 518px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.when-it-comes-to-food-my-tastes-have-evolved-over-time-as-a-kid-i-loved-sweets-and-fast-food-and-was-a-picky-eater-only-enjoying-certain-meats-vegetables-and-seafood-but-as-i-grew-older-i-started-experimenting-discovering-flavours-and-dishes-i-never-thought-i-d-like-now-i-love-to-eat-around-visit-new-places-and-experience-the-flavours-people-grow-up-with-east-asian-cuisine-is-my-personal-favourite-the-balance-of-flavours-textures-and-colours-never-fails-to-excite-me {
+  color: #000000;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 800px;
+  top: 1676px;
+  width: 505px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.where-i-m-going {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 48px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: 801px;
+  top: 1582px;
+  width: 518px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-21 {
+  width: 640px;
+  height: 507px;
+  position: absolute;
+  left: 733px;
+  top: 1024px;
+  object-fit: cover;
+}
+.rectangle-22 {
+  width: 640px;
+  height: 474px;
+  position: absolute;
+  left: 66px;
+  top: 1799px;
+  object-fit: cover;
+}
+.rectangle-24 {
+  width: 640px;
+  height: 608px;
+  position: absolute;
+  left: 740px;
+  top: 2246px;
+  object-fit: cover;
+}
+.rectangle-23 {
+  background: var(--sage-green, #87a280);
+  border-radius: 130px 0px 130px 0px;
+  width: 640px;
+  height: 558px;
+  position: absolute;
+  left: 66px;
+  top: 2296px;
+}
+.through-this-blog-i-want-to-share-my-food-adventures-my-honest-reviews-and-the-little-stories-behind-every-dish-i-try-my-goal-is-to-discover-new-flavours-explore-hidden-gems-and-connect-with-others-who-share-my-love-of-food-whether-it-s-a-cozy-caf-a-bustling-street-market-or-a-fine-dining-experience-i-hope-my-journey-inspires-you-to-taste-boldly-explore-widely-and-enjoy-every-bite-along-the-way {
+  color: #000000;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 133px;
+  top: 2358px;
+  width: 505px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-26 {
+  background: var(--charcoal, #333333);
+  width: 1440px;
+  height: 469px;
+  position: absolute;
+  left: 0px;
+  top: 3905px;
+}
+.ellipse-1 {
+  border-radius: 50%;
+  width: 2056px;
+  height: 786px;
+  position: absolute;
+  left: -308px;
+  top: 3588px;
+  object-fit: cover;
+}
+.rectangle-25 {
+  background: var(--warm-beige, #e6dac6);
+  width: 1440px;
+  height: 380px;
+  position: absolute;
+  left: 0px;
+  top: 3525px;
+}
+.what-i-ve-been-up-to-lately {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 48px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: 133px;
+  top: 3637px;
+  width: 317px;
+  height: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 20px;
+  line-height: var(--static-title-large-line-height, 28px);
+  font-weight: 400;
+  position: absolute;
+  left: 554px;
+  top: 3575px;
+  width: 745px;
+  height: 293px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span {
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "SpaceMono-Bold", sans-serif;
+  line-height: 28px;
+  font-weight: 700;
+}
+.classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span2 {
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "SpaceMono-Regular", sans-serif;
+  line-height: 28px;
+}
+.rectangle-28 {
+  background: var(--brown, #b9a590);
+  width: 1440px;
+  height: 627px;
+  position: absolute;
+  left: 0px;
+  top: 2898px;
+}
+.how-does-the-rating-work {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 48px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: 278px;
+  top: 2930px;
+  width: 875px;
+  height: 109px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 22px;
+  line-height: 0undefined;
+  font-weight: 400;
+  position: absolute;
+  left: 318px;
+  top: 3002px;
+  width: 876px;
+  height: 492px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span {
+  font-family: "SpaceMono-Regular", sans-serif;
+  line-height: 30px;
+}
+.i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span2 {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "SpaceMono-Bold", sans-serif;
+  line-height: 45px;
+  font-weight: 700;
+}
+.i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span3 {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "SpaceMono-Bold", sans-serif;
+  line-height: 30px;
+  font-weight: 700;
+}
+.i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span4 {
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "SpaceMono-Regular", sans-serif;
+  line-height: 28px;
+}
+.i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span5 {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "SpaceMono-Bold", sans-serif;
+  line-height: 28px;
+  font-weight: 700;
+}
+.i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span6 {
+  font-family: "SpaceMono-Bold", sans-serif;
+  line-height: 28px;
+  font-weight: 700;
+}
+.rectangle-9 {
+  background: var(--pure-white, #ffffff);
+  width: 1440px;
+  height: 120px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-11 {
+  width: 384px;
+  height: 120px;
+  position: absolute;
+  left: 60px;
+  top: 0px;
+}
+.group-112 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.the-fan-club {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 45px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.food-edition {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 6.25%;
+  left: 6.25%;
+  width: 87.5%;
+  bottom: 2.5%;
+  top: 63.33%;
+  height: 34.17%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-19 {
+  position: absolute;
+  inset: 0;
+}
+.food-review {
+  width: 195px;
+  height: 41px;
+  position: absolute;
+  left: 755px;
+  top: 76px;
+}
+.food-review2 {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-picks {
+  width: 176px;
+  height: 41px;
+  position: absolute;
+  left: 950px;
+  top: 76px;
+}
+.top-picks2 {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  width: 140px;
+  height: 41px;
+  position: absolute;
+  left: 1126px;
+  top: 76px;
+}
+.about2 {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact {
+  width: 136px;
+  height: 41px;
+  position: absolute;
+  left: 1266px;
+  top: 76px;
+}
+.contact2 {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-22 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-10 {
+  background: var(--charcoal, #333333);
+  width: 1440px;
+  height: 422px;
+  position: absolute;
+  left: 0px;
+  top: 4368px;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 205px;
+  position: absolute;
+  left: 633px;
+  top: 4446px;
+}
+.explore {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Bold", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about3 {
+  flex-shrink: 0;
+  width: 205px;
+  height: 41px;
+  position: relative;
+}
+.about4 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.food-review3 {
+  flex-shrink: 0;
+  width: 205px;
+  height: 41px;
+  position: relative;
+}
+.food-review4 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.my-top-picks {
+  flex-shrink: 0;
+  width: 205px;
+  height: 41px;
+  position: relative;
+}
+.my-top-picks2 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact3 {
+  flex-shrink: 0;
+  width: 205px;
+  height: 41px;
+  position: relative;
+}
+.contact4 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 167px;
+  position: absolute;
+  left: 865px;
+  top: 4446px;
+}
+.follow-me {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Bold", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.instagram {
+  flex-shrink: 0;
+  width: 167px;
+  height: 41px;
+  position: relative;
+}
+.instagram2 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linkedin {
+  flex-shrink: 0;
+  width: 167px;
+  height: 41px;
+  position: relative;
+}
+.linkedin2 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.updates-news-sign-up-with-your-email {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceMono-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 1042px;
+  top: 4462px;
+  width: 310px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.email {
+  width: 310px;
+  height: 66px;
+  position: absolute;
+  left: 1042px;
+  top: 4542px;
+}
+.rectangle-11 {
+  background: var(--pure-white, #ffffff);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.email-address {
+  color: #d8d8d8;
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 4.84%;
+  width: 95.16%;
+  bottom: 15.15%;
+  top: 15.15%;
+  height: 69.7%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-sign-up {
+  width: 168px;
+  height: 55px;
+  position: absolute;
+  left: 1042px;
+  top: 4624px;
+}
+.rectangle-12 {
+  background: var(--warm-beige, #e6dac6);
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.sign-up {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  position: absolute;
+  right: 9.52%;
+  left: 8.93%;
+  width: 81.55%;
+  bottom: 7.27%;
+  top: 9.09%;
+  height: 83.64%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white-logo {
+  width: 384px;
+  height: 120px;
+  position: absolute;
+  left: 66px;
+  top: 4416px;
+}
+.the-fan-club2 {
+  color: var(--pure-white, #ffffff);
+  text-align: center;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 45px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.food-edition2 {
+  color: var(--pure-white, #ffffff);
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 6.25%;
+  left: 6.25%;
+  width: 87.5%;
+  bottom: 0%;
+  top: 65.83%;
+  height: 34.17%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="about-page">
+    <div class="rectangle-20"></div>
+    <div class="rectangle-19"></div>
+    <div class="rectangle-18"></div>
+    <div class="who-am-i">Who am I?</div>
+    <div
+      class="hi-i-m-joyce-fan-a-chinese-canadian-on-a-mission-to-explore-and-taste-the-world-s-best-eats-i-love-discovering-hidden-gems-and-sharing-honest-reviews-with-fellow-food-lovers"
+    >
+      Hi, I’m Joyce Fan. A Chinese Canadian on a mission to explore and taste the
+      world’s best eats! I love discovering hidden gems and sharing honest reviews
+      with fellow food lovers.
+    </div>
+    <img class="rectangle-7" src="rectangle-70.png" />
+    <div
+      class="i-m-a-global-business-and-digital-arts-student-at-the-university-of-waterloo-and-i-m-passionate-about-exploring-the-world-through-food-just-like-i-blend-art-design-and-storytelling-in-my-creative-projects-i-love-sharing-the-stories-behind-the-dishes-i-try-the-flavours-the-people-and-the-culture-that-make-every-meal-special"
+    >
+      I’m a Global Business and Digital Arts student at the University of
+      Waterloo, and I’m passionate about exploring the world through food. Just
+      like I blend art, design, and storytelling in my creative projects, I love
+      sharing the stories behind the dishes I try — the flavours, the people, and
+      the culture that make every meal special.
+    </div>
+    <div
+      class="i-was-born-and-raised-in-canada-though-i-traveled-a-lot-with-my-family-when-i-was-younger-most-of-those-memories-are-a-blur-but-i-do-remember-enjoying-all-the-food-along-the-way-growing-up-i-was-always-drawn-to-creativity-whether-through-drawing-music-or-dance-and-that-curiosity-has-naturally-extended-to-the-food-i-eat-being-the-youngest-of-three-i-ve-always-had-the-guidance-and-care-of-my-older-siblings-and-their-influence-has-shaped-not-only-who-i-am-as-a-person-but-also-how-i-explore-the-world-with-curiosity-openness-and-a-taste-for-adventure"
+    >
+      I was born and raised in Canada, though I traveled a lot with my family when
+      I was younger — most of those memories are a blur, but I do remember
+      enjoying all the food along the way! Growing up, I was always drawn to
+      creativity, whether through drawing, music, or dance, and that curiosity has
+      naturally extended to the food I eat. Being the youngest of three, I’ve
+      always had the guidance and care of my older siblings, and their influence
+      has shaped not only who I am as a person, but also how I explore the world —
+      with curiosity, openness, and a taste for adventure.
+    </div>
+    <div class="where-i-am-from">Where I am from</div>
+    <div
+      class="when-it-comes-to-food-my-tastes-have-evolved-over-time-as-a-kid-i-loved-sweets-and-fast-food-and-was-a-picky-eater-only-enjoying-certain-meats-vegetables-and-seafood-but-as-i-grew-older-i-started-experimenting-discovering-flavours-and-dishes-i-never-thought-i-d-like-now-i-love-to-eat-around-visit-new-places-and-experience-the-flavours-people-grow-up-with-east-asian-cuisine-is-my-personal-favourite-the-balance-of-flavours-textures-and-colours-never-fails-to-excite-me"
+    >
+      When it comes to food, my tastes have evolved over time. As a kid, I loved
+      sweets and fast food and was a picky eater, only enjoying certain meats,
+      vegetables, and seafood. But as I grew older, I started experimenting,
+      discovering flavours and dishes I never thought I’d like. Now, I love to eat
+      around, visit new places, and experience the flavours people grow up with.
+      East Asian cuisine is my personal favourite — the balance of flavours,
+      textures, and colours never fails to excite me.
+    </div>
+    <div class="where-i-m-going">Where I’m going</div>
+    <img class="rectangle-21" src="rectangle-210.png" />
+    <img class="rectangle-22" src="rectangle-220.png" />
+    <img class="rectangle-24" src="rectangle-240.png" />
+    <div class="rectangle-23"></div>
+    <div
+      class="through-this-blog-i-want-to-share-my-food-adventures-my-honest-reviews-and-the-little-stories-behind-every-dish-i-try-my-goal-is-to-discover-new-flavours-explore-hidden-gems-and-connect-with-others-who-share-my-love-of-food-whether-it-s-a-cozy-caf-a-bustling-street-market-or-a-fine-dining-experience-i-hope-my-journey-inspires-you-to-taste-boldly-explore-widely-and-enjoy-every-bite-along-the-way"
+    >
+      Through this blog, I want to share my food adventures, my honest reviews,
+      and the little stories behind every dish I try. My goal is to discover new
+      flavours, explore hidden gems, and connect with others who share my love of
+      food. Whether it’s a cozy café, a bustling street market, or a fine dining
+      experience, I hope my journey inspires you to taste boldly, explore widely,
+      and enjoy every bite along the way.
+    </div>
+    <div class="rectangle-26"></div>
+    <img class="ellipse-1" src="ellipse-10.png" />
+    <div class="rectangle-25"></div>
+    <div class="what-i-ve-been-up-to-lately">What I’ve been up to lately</div>
+    <div
+      class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break"
+    >
+      <span>
+        <ul
+          class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span"
+        >
+          <li>Classes.</li>
+        </ul>
+        <ul
+          class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span2"
+        >
+          <li>
+            Taking about design, using AI to incorporate into my designs,
+            prototyping products for users, understanding web design
+          </li>
+        </ul>
+        <ul
+          class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span"
+        >
+          <li>Exploring Food and Places.</li>
+        </ul>
+        <ul
+          class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span2"
+        >
+          <li>
+            I love to eat and travel to places. I have traveled to some parts of
+            Europe (Italy, Spain, and France), some parts of Asia (Japan, Taiwan,
+            Hong Kong, China, and Thailand), and USA.
+          </li>
+        </ul>
+        <ul
+          class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span"
+        >
+          <li>Photography.</li>
+        </ul>
+        <ul
+          class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span2"
+        >
+          <li>
+            I love to capture every small moments. Either my life or the people
+            around me.
+          </li>
+        </ul>
+        <ul
+          class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span"
+        >
+          <li>Travel.</li>
+        </ul>
+        <ul
+          class="classes-taking-about-design-using-ai-to-incorporate-into-my-designs-prototyping-products-for-users-understanding-web-design-exploring-food-and-places-i-love-to-eat-and-travel-to-places-i-have-traveled-to-some-parts-of-europe-italy-spain-and-france-some-parts-of-asia-japan-taiwan-hong-kong-china-and-thailand-and-usa-photography-i-love-to-capture-every-small-moments-either-my-life-or-the-people-around-me-travel-going-to-china-for-the-winter-break-span2"
+        >
+          <li>Going to China for the Winter Break.</li>
+        </ul>
+      </span>
+    </div>
+    <div class="rectangle-28"></div>
+    <div class="how-does-the-rating-work">How does the rating work?</div>
+    <div
+      class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish"
+    >
+      <span>
+        <span
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span"
+        >
+          I review each dish using four key categories:
+          <br />
+        </span>
+        <ol
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span2"
+        >
+          <li>Presentation</li>
+        </ol>
+        <ol
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span3"
+        >
+          <li></li>
+        </ol>
+        <ul
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span4"
+        >
+          <li>How the dish looks - plating, colour, and visual appeal.</li>
+        </ul>
+        <ol
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span5"
+        >
+          <li>Taste</li>
+        </ol>
+        <ul
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span4"
+        >
+          <li>Flavour, texture, and overall enjoyment.</li>
+        </ul>
+        <ol
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span5"
+        >
+          <li>Value</li>
+        </ol>
+        <ul
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span4"
+        >
+          <li>
+            How worth it the price is for the quality and portion.
+            <br />
+            1 = not expensive / good value
+            <br />
+            10 = very expensive
+          </li>
+        </ul>
+        <ol
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span5"
+        >
+          <li>Recommendation</li>
+        </ol>
+        <ul
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span4"
+        >
+          <li>Would I suggest this to someone?</li>
+        </ul>
+        <ul
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span4"
+        >
+          <li>Should Try - I recommend it</li>
+          <li>Could Try - optional, depends on your taste</li>
+          <li>Must Try - I am telling you to go and try it out</li>
+        </ul>
+        <span
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span6"
+        >
+          Overall Rating
+          <br />
+        </span>
+        <ul
+          class="i-review-each-dish-using-four-key-categories-presentation-how-the-dish-looks-plating-colour-and-visual-appeal-taste-flavour-texture-and-overall-enjoyment-value-how-worth-it-the-price-is-for-the-quality-and-portion-1-not-expensive-good-value-10-very-expensive-recommendation-would-i-suggest-this-to-someone-should-try-i-recommend-it-could-try-optional-depends-on-your-taste-must-try-i-am-telling-you-to-go-and-try-it-out-overall-rating-a-combined-score-that-reflects-my-full-experience-with-the-dish-span4"
+        >
+          <li>
+            A combined score that reflects my full experience with the dish.
+          </li>
+        </ul>
+      </span>
+    </div>
+    <div class="rectangle-9"></div>
+    <div class="group-11">
+      <div class="group-112">
+        <div class="the-fan-club">The Fan Club</div>
+        <div class="food-edition">Food Edition</div>
+      </div>
+    </div>
+    <div class="food-review">
+      <div class="food-review2">Food Review</div>
+    </div>
+    <div class="top-picks">
+      <div class="top-picks2">Top Picks</div>
+    </div>
+    <div class="about">
+      <div class="about2">About</div>
+    </div>
+    <div class="contact">
+      <div class="contact2">Contact</div>
+    </div>
+    <div class="rectangle-10"></div>
+    <div class="frame-5">
+      <div class="explore">Explore</div>
+      <div class="about3">
+        <div class="about4">About</div>
+      </div>
+      <div class="food-review3">
+        <div class="food-review4">Food Review</div>
+      </div>
+      <div class="my-top-picks">
+        <div class="my-top-picks2">My Top Picks</div>
+      </div>
+      <div class="contact3">
+        <div class="contact4">Contact</div>
+      </div>
+    </div>
+    <div class="frame-6">
+      <div class="follow-me">Follow Me</div>
+      <div class="instagram">
+        <div class="instagram2">Instagram</div>
+      </div>
+      <div class="linkedin">
+        <div class="linkedin2">Linkedin</div>
+      </div>
+    </div>
+    <div class="updates-news-sign-up-with-your-email">
+      Updates? News? Sign up with your email.
+    </div>
+    <div class="email">
+      <div class="rectangle-11"></div>
+      <div class="email-address">Email Address</div>
+    </div>
+    <div class="footer-sign-up">
+      <div class="rectangle-12"></div>
+      <div class="sign-up">Sign Up</div>
+    </div>
+    <div class="white-logo">
+      <div class="the-fan-club2">The Fan Club</div>
+      <div class="food-edition2">Food Edition</div>
+    </div>
+  </div>
+  
+</body>
+</html>
